@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalam',
+        cursive;
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    padding: 1em;
+}
+
+.header {
+    padding: 1em;
+    background-color: rgba(49, 105, 209, 0.857);
+    color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.483);
+}
+
+@media only screen and (max-width:768px) {
+    .header {
+        text-align: center;
+    }
+}
+
+.loader-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-card {
+    border: 0.5px solid rgb(194, 194, 194);
+    padding: 1em;
+    border-radius: 8px;
+    display: none;
+}
+
+.p-quote,
+.p-anime,
+.p-character {
+    margin: 1em;
+}
+
+.p-quote {
+
+    font-size: 1.3em;
+}
+
+.p-character {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.p-anime {
+    font-size: 1.2em;
+}
+
+.get-button {
+    display: flex;
+    margin: 2em auto;
+    padding: 1em;
+    border: 0.5px solid rgb(32, 32, 32);
+    border-radius: 4px;
+    background-color: #ddd;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.429);
+}
+
+.fa-code {
+    color: rgb(0, 211, 0);
+}
+
+.fa-heart {
+    color: rgb(207, 24, 24);
+}
+
+.anchor-footer {
+    text-decoration: none;
+    color: rgb(3, 0, 82);
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
